@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Flexbox等の使い方</title>
+    <style>
+        #sort{
+            display:flex;
+            flex-direction:row;
+            background-color:red;
+        }
+        
+        #reverse{
+            display:flex;
+            flex-direction:row-reverse;
+            background-color:yellow;
+        }
+        
+        #column{
+            display:flex;
+            flex-direction:column;
+            background-color:blue;
+        }
+        
+        #column-reverse{
+            display:flex;
+            flex-direction:column-reverse;
+            background-color:green;
+        }
+    </style>
+</head>
+<body>
+    <div id="sort">
+        <div>Hoge</div>
+        <div>Foga</div>
+        <div>Foo</div>
+        <div>Bar</div>
+    </div>
+    
+    <div id="reverse">
+        <div>Hoge</div>
+        <div>Foga</div>
+        <div>Foo</div>
+        <div>Bar</div>
+    </div>
+    
+    <div id="column">
+        <div>Hoge</div>
+        <div>Foga</div>
+        <div>Foo</div>
+        <div>Bar</div>
+    </div>
+    
+    <div id="column-reverse">
+        <div>Hoge</div>
+        <div>Foga</div>
+        <div>Foo</div>
+        <div>Bar</div>
+    </div>
+    
+</body>
+</html>

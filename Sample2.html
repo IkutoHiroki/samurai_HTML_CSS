@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+    
+    <head>
+        <style>
+       
+       /* 現時点（2020/8/19）では、
+          ページ内のHTML要素へスクロールする機能を持つ
+           scroll-behavior: smooth; の使用は
+           FirefoxとGoogle Chromeだけしか
+           対応していない。
+           
+        html {
+                scroll-behavior: smooth;
+            }
+        */
+            .size {
+                height: 500px;
+            }
+            
+            
+            
+        </style>
+    </head>
+    <body>
+        <div class="size">
+            <a href="#hoge">move to hoge</a>
+        </div>
+        <div id="hoge" class="size">
+            <h1>hoge</h1>
+        </div>
+    </body>
+</html>
